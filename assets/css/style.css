@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/star_field.jpg");
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.headerImage {
+    width: 100%;
+
+}
+
+.container-results {
+    margin: 0 auto;
+    background-color: #777777;
+    float: left;
+    margin: 1em;
+    width: 400px;
+    height: auto;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resultsImage {
+    width: 80%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container-game {
+    margin: 0 auto;
+    background-color: #777777;
+    float: right;
+    margin: 1em;
+    width: 400px;
+    height: auto;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    color: gold;
+    border: gold;
+    margin: 2em;
+    
+}
+
+h1 {
+    color: gold;
+    margin-top: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    color: gold;
+    padding: 1.5em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+#currentWord {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Extra small devices (portrait phones, less than 640px) */
+@media (max-width: 640px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+
+    container {
+        margin-top: 20px;
+    }
+}    
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, less than 980px) */
+@media (max-width: 1200px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+
+    .container-results {
+        background-color: #777777;
+        float: left;
+        margin: 10% 1% 15% 15%;
+        width: 400px;
+        height: 500px;
+        z-index: 1;
+    }
+    
+    .container-game {
+        background-color: #777777;
+        float: left;
+        margin: 10% 15% 15% 1%;
+        width: 400px;
+        height: 500px;
+        z-index: 1;
+    }
+}
